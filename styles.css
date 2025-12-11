@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.post {
+    width: 500px;
+    height: 800px;
+    background-color: white;
+}
+.post-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10%;
+    background-color: white;
+}
+.header-logo {
+    width: auto;
+    height: auto;
+}
+i {
+    font-size: 30px;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.header-texto {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.header-parrafo{
+    display: flex;
+    flex-direction: column;
+}
+.post-img{
+    height: 60%;
+    background-color: white;
+
+}
+img{
+    width: 500px;
+    height: 100%;
+}
+.post-body{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 30%;
+    background-color: white;
+}
+.postbody-icons{
+    display: flex;
+    width: 500px;
+    height: 25%;
+    background-color: white;
+    margin: auto;
+}
+
+.icons-left{
+    display: flex;
+    width: 80%;
+    height: auto;
+}
+.icon-like{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+.icon-comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+.icon-share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+.icons-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+    height: auto;
+}
+
+.postbody-paragraph{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 75%;
+    background-color: white;
+    margin top: 1%;
+    margin bottom: 2%;
+}
+.paragraph-activity{
+    margin: 2%;
+    background-color: white;
+
+}
+.paragraph-description{
+    margin: 2%;
+    background-color:white;
+}
